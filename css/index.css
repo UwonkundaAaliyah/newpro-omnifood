@@ -6,13 +6,13 @@
 body{
     font-family: 'Courier New', Courier, monospace;
     /* background-color: rgba(53, 192, 139, 0.932); */
-    height: 70vh;
+    /* height: 30vh; */
     width: 100%;
-    position: absolute;
+    position: relative;
     background-image: url(https://media.istockphoto.com/id/1147610649/photo/seamless-pasta-spirals-top-view-pattern-on-paper-background.jpg?s=612x612&w=0&k=20&c=DTZtwoiSG4u_p40GLM17kMBNB-abl_VX1dFi_asMbQw=);
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 .nav-bar{
     background-color:rgb(68, 67, 63);
@@ -50,13 +50,6 @@ body{
     color: white;
     /* padding: 10px; */
     font-size: 44px;
-    /* background-color: rgb(231, 217, 171);
-    opacity: 0.5px;
-    width: 30%;
-    box-shadow: 40px;
-    margin: 50px;
-    height: 50vh; */
-    /* text-align: center; */
     padding-top: 70px;
     display: flex;
     gap: 120px;
@@ -64,7 +57,6 @@ body{
 Button {
     background-color: rgb(230, 184, 57);
     color: white;
-    /* border: none; */
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -141,7 +133,8 @@ Button:hover {
     padding-top: 20px;
 }
 form{
-    padding-top: 10PX;
+    padding-top: 10px;
+    border-radius: 10px;
 }
 .log{
     width: 30%;
@@ -152,6 +145,7 @@ form{
     margin-left: 35%;
     padding: 20px;
     height: 65vh;
+    border-radius: 10px;
 }
 .si{
     color: white;
@@ -219,4 +213,127 @@ form{
 .log a{
     color:rgb(212, 185, 60);
 }
+video{
+    width: 500px;
+    height: 70vh;
+    margin-left: 0;
+}
+.wor p{
+    padding-top: 110px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.experience{
+    height: 200vh;
+}
+.exp{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.experience h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+.om{
+    color:rgb(212, 185, 60) ;
+}
+
+
+@media screen and (max-width:800px) {
+    .nav-bar {
+        display: block;
+        height: 35vh;
+    }
+    .nav-bar ul{
+        display: block;
+    }
+    .nav-bar ul li{
+        font-size: 30px;
+    }
+    .ama{
+        display: block;
+        margin-top: 0;
+        /* margin-left: 0; */
+        font-size: 30px;
+        padding: 0;
+        text-align: left;
+    }
+    .ho{
+        display: block;
+        margin-top: 0;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width:800px){
+    .container1{
+        display: block;
+    }
+    .bu{
+        font-size: 25px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .bu h5{
+        font-size: 28px;
+    }
+    .bu h1{
+        font-size: 40px;
+        text-align: left;
+    }
+    .us img{
+        width: 600px;
+        height: 40vh;
+        
+    }
+    .container2{
+        color:white;
+    }
+    .container2 h1{
+        text-align: left;
+        font-size: 40px;
+        margin-top: 0;
+    }
+    .getin{
+        display: block;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:800px){
+    .contact{
+        display: block;
+    }
+    .pik img{
+        width:160px;
+        height: 30vh;
+    }
+    .i{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width:800px){
+    .men{
+        display: block;
+        width: 100%;
+    }
+    .vegie{
+        margin-top: 20px;
+    }
+    .fish{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:800){
+    .exp{
+        display: block;
+    }
+}
+@media screen and (max-width:800px){
+    .log{
+        height: 40vh;
+    }
+}
+
+
   
